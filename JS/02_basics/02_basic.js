@@ -1,1 +1,1 @@
-console.log(sidman);
+console.log(sidman );
