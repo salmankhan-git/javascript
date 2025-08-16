@@ -7,10 +7,10 @@ console.log((typeof score));
 // yaha hum kisi score ke dataype ko convert kar rahai hai number mein
 let valueInNumber = Number(score)
 
-console.log(typeof valueInNumber);
-console.log(valueInNumber);
+console.log(typeof valueInNumber);  //number
+console.log(valueInNumber);  //NaN
 
-
+//converting string into number examples
 // "33"=>33
 // "33abc"=>NaN
 // "true"=>1; // "false"=0
@@ -22,11 +22,14 @@ let isLoggedIn = ""
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 console.log(booleanIsLoggedIn)
 
+//converting string into boolean examples
 // 1=> true;
 // 0=> false;
 // ""=> false;
 // "hitesh"=> true;
-
+// "kuch bhi likha ho"=>true;
+//  null=>false
+//  undefined=>false
 
 let someNumber = 89
 let stringNumber = String(someNumber)
@@ -61,6 +64,8 @@ console.log(2+1+"2")        //      32
 
 console.log(+true)          //      1
 console.log(+"")            //      0
+console.log(+undefined)     //      NaN
+console.log(+null)          //      0
 
 
 let gameCounter = 100
