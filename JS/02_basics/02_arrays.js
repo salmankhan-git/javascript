@@ -32,4 +32,10 @@ let score2 = 200
 let score3 = 300
 
 //of - Returns a new array from a set of elements.
+
+// Array.from():
+// Creates a new, shallow-copied Array instance from an array-like or iterable object.
+// Array.of():
+// Creates a new Array instance with a variable number of arguments as elements. 
+
 console.log(Array.of(score1, score2, score3));
