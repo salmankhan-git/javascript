@@ -73,38 +73,53 @@ function loginUserMessage(username = "salman"){
 }
 
 console.log(loginUserMessage(''))
-console.log(loginUserMessage()) // yeh isliye rin horaha hain bcz username mein salman value de rakhi hai
+console.log(loginUserMessage()) // yeh isliye run horaha hain bcz username mein salman value de rakhi hai
 console.log(loginUserMessage("salman"))
 
 
 
+// is tarike ka function hum ecommerce ke cart ka subtotal karne ke liye use karte hai
+// in mein hamein pata nahi hota ki kitne parameter ane wale hai
+// is problem ke liye ham rest operator use karte hain ... (yahi sign spread operator ka bhi hota hai par depend karta hai uskey usage pe)
+// function calculateCartPrice(...num1) ab num ke anndar sari valu store hongi o/p mein array miljayega
 
-function calculateCartPrice(val1, val2, ...num1){
+function calculateCartPrice(val1, val2, ...num1){ 
+    // iske accordind phela argument v1 parameter mein or second v2 mein baki sare arguments num1 parameter mein store honge
     return num1
 }
 
 // console.log(calculateCartPrice(200, 400, 500, 2000))
 
+
+//function mein object kaise pass kare 
 const user = {
-    username: "hitesh",
+    username: "salman",
     prices: 199
 }
 
 function handleObject(anyobject){
+    // yeh anyobject ek paramete diya hai jisme ham koi bhi object pass kar sakte hai
     console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
 }
 
 // handleObject(user)
+
+//yah ham object sidha execution ke time sidha esa parameter bhi pass karsakte hain alag se object ko assign karne ki zaroort nahi
 handleObject({
-    username: "sam",
+    username: "salman",
     price: 399
 })
+
+//function mein array kaise pass karte hain
 
 const myNewArray = [200, 400, 100, 600]
 
 function returnSecondValue(getArray){
+    // yeh getArray ek parameter diya hai jisme ham koi bhi array pass kar sakte hai
     return getArray[1]
 }
 
 // console.log(returnSecondValue(myNewArray));
+
+// yaha ham sidha execution ke time array dal sakte hain or declare karne ki koi zaroort nahi
 console.log(returnSecondValue([200, 400, 500, 1000]));
