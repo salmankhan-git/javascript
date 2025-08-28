@@ -8,8 +8,10 @@ const temperature = 41
 //     console.log("temperature is greater than 50");
 // }
 
+//basically if else statment run the if block only when the condition in the if block is fullfiled or it will run the else block 
+
 // console.log("Execute");
-// <, >, <=, >=, ==, !=, ===, !==
+// <, >, <=, >=, ==, !=, ===(this evalute both value and datatype), !==
 
 // const score = 200
 
@@ -17,13 +19,18 @@ const temperature = 41
 //     let power = "fly"
 //     console.log(`User power: ${power}`);
 // }
-
 // console.log(`User power: ${power}`);
-
+// // it will not run bcz of block scope
 
 // const balance = 1000
 
-// if (balance > 500) console.log("test"),console.log("test2");
+// +++++++++++ short hand for if statement +++++++++++++
+// if (balance > 500) console.log("test"),
+// console.log("test2");
+// but it just reduce the code readability and maintainability
+
+
+// nested (else if tree)
 
 // if (balance < 500) {
 //     console.log("less than 500");
@@ -37,6 +44,9 @@ const temperature = 41
 //     console.log("less than 1200");
 
 // }
+
+
+// how we use in real projects
 
 const userLoggedIn = true
 const debitCard = true
