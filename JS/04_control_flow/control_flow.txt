@@ -1,0 +1,28 @@
+Control flow in JavaScript dictates the order in which statements are executed within a program. 
+By default, JavaScript code runs sequentially from top to bottom. However, control flow statements 
+allow for altering this default execution order, enabling programs to make decisions, repeat actions, and 
+handle errors. 
+Key components of control flow in JavaScript include:
+
+Conditional Statements:
+These statements execute specific blocks of code only if a certain condition is met.
+
+if...else if...else: Executes different code blocks based on a series of conditions.
+
+switch: Provides a more structured way to handle multiple possible execution paths based on a single value.
+
+Loops:
+These statements allow for repeated execution of a block of code.
+for: Used when the number of iterations is known or can be determined beforehand.
+while: Executes a block of code as long as a specified condition remains true.
+do...while: Similar to while, but guarantees at least one execution of the loop body before checking the condition.
+for...in: Iterates over the enumerable properties of an object.
+for...of: Iterates over iterable objects like arrays, strings, Maps, Sets, etc.
+
+Function Calls:
+Functions encapsulate reusable blocks of code. When a function is called, the control flow temporarily shifts to the function's body, executes its statements, and then returns to the point where it was called.
+
+Exception Handling:
+These statements manage errors that occur during program execution.
+try...catch: Allows for attempting to execute code that might throw an error and then handling that error gracefully if it occurs.
+throw: Used to explicitly raise an exception.
