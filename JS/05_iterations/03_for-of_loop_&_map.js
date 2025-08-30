@@ -1,7 +1,8 @@
 // for of loop
 // these loop dont need any condition or increment .
+// The for...of loop in JavaScript provides a concise way to iterate over the values of iterable objects.
 
-//these loop are applied on arrays mainly with strings or objects inside it
+//these(forof, forin) loop are applied on arrays mainly with strings or objects inside it
 // ["", "", ""]
 // [{}, {}, {}]
 
